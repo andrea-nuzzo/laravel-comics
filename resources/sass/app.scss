@@ -1,1 +1,56 @@
-//
+@import 'partials/commons';
+
+/*
+ -------
+| HEADER |
+ -------
+*/
+.header{
+    .container{
+        height: 20px;
+        background-color: #0476f2;
+        color: white;
+        font-size: 12PX;
+    }
+    .top-header{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        font-weight: bold;
+    }
+
+    .top-header div{
+        margin-right: 15px;
+    }
+
+    .navbar{
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img{
+            width: 80px;
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a{
+                text-transform: uppercase;
+                color: gray;
+                margin-right: 20px ;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+.jumbotron{
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
