@@ -63,7 +63,21 @@
     .container{
         width: 80%;
         margin: 0 auto;
+        position: relative;
     }
+
+    .currentSeries{
+        position: absolute;
+        top: -20px;
+        left: 0px;
+        color: white;
+        background-color: #0476f2;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 20px ;    
+      }
+
+
     .comics{
 
         display: flex;
@@ -76,6 +90,19 @@
             margin-right: 10px;
             margin-bottom: 30px;
             color: white;
+        }
+    }
+
+    .load {
+        text-align: center;
+        padding-bottom: 30px;
+
+        .btnLoad{
+          color: white;
+          background-color: #0476f2;
+          font-size: 20px;
+          font-weight: bold;
+          padding: 5px 20px;
         }
     }
 }
