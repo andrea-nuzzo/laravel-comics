@@ -28,7 +28,7 @@ a {
 | HEADER |
  -------
 */
-.header .container {
+.header .top-header {
   height: 20px;
   background-color: #0476f2;
   color: white;
@@ -57,6 +57,9 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.header .navbar ul li {
+  list-style: none;
+}
 .header .navbar ul a {
   text-transform: uppercase;
   color: gray;
@@ -69,4 +72,24 @@ a {
   background-size: cover;
   height: 400px;
   width: 100%;
+}
+
+.main {
+  background-color: #222222;
+}
+.main .container {
+  width: 80%;
+  margin: 0 auto;
+}
+.main .comics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0 10px 0;
+}
+.main .comics .cardComic {
+  width: 20%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  color: white;
 }

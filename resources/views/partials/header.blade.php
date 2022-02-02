@@ -1,5 +1,4 @@
 <header class="header">
-    <div class="container">
         <div class="top-header">
             <div>DC POWER VISA</div>
             <div> ADDITIONAL DC SITES</div>
@@ -27,5 +26,4 @@
 
         <div class="jumbotron"  style="background-image: url('{{ asset('img/jumbotron.jpg')}}');">
          </div>
-    </div>
 </header>

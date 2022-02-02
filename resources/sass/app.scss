@@ -6,7 +6,7 @@
  -------
 */
 .header{
-    .container{
+    .top-header{
         height: 20px;
         background-color: #0476f2;
         color: white;
@@ -37,6 +37,9 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            li{
+                list-style: none;
+            }
             a{
                 text-transform: uppercase;
                 color: gray;
@@ -48,9 +51,31 @@
     }
 }
 
-
 .jumbotron{
     background-size: cover;
     height: 400px;
     width: 100%;
+}
+
+
+.main{
+    background-color: rgb(34, 34, 34);
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .comics{
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 40px 0 10px 0;
+
+        .cardComic{
+            width: calc(100% / 5);
+            margin-right: 10px;
+            margin-bottom: 30px;
+            color: white;
+        }
+    }
 }
